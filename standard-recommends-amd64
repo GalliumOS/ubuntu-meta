@@ -1,0 +1,17 @@
+apparmor
+apt-transport-https
+bash-completion
+friendly-recovery
+iputils-tracepath
+manpages
+mtr-tiny
+nano
+ntfs-3g
+openssh-client
+plymouth
+ppp
+pppconfig
+pppoeconf
+tcpdump
+ufw
+uuid-runtime
