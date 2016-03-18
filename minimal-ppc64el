@@ -8,7 +8,6 @@ debconf-i18n
 eject
 gnupg
 ifupdown
-init
 initramfs-tools
 iproute2
 iputils-ping
@@ -18,15 +17,12 @@ kmod
 less
 locales
 lsb-release
-mac-fdisk
 makedev
 mawk
 net-tools
 netbase
 netcat-openbsd
-ntpdate
 passwd
-pmac-fdisk
 powerpc-ibm-utils
 powerpc-utils
 procps

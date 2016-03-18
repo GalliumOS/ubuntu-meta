@@ -25,7 +25,6 @@ libnotify-bin
 libpam-systemd
 libsasl2-modules
 lightdm
-memtest86+
 nautilus
 notify-osd
 openprinting-ppds
@@ -39,7 +38,6 @@ ubuntu-release-upgrader-gtk
 ubuntu-session
 ubuntu-settings
 ubuntu-sounds
-unity
 unity-control-center
 unity-greeter
 unity-settings-daemon

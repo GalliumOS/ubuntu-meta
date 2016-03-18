@@ -1,20 +1,232 @@
-ubuntu-meta (1.334-0galliumos2) vivid; urgency=medium
+ubuntu-meta (1.349) xenial; urgency=medium
 
-  * Set package version to match provenance
+  * Refreshed dependencies
+  * Removed libreoffice-style-human from desktop-recommends
+  * Removed ttf-indic-fonts-core from desktop-recommends
+  * Added libreoffice-style-breeze to desktop-recommends
 
- -- reynhout <reynhout@galliumos.org>  Sun, 10 Jan 2016 21:05:33 +0000
+ -- Iain Lane <iain.lane@canonical.com>  Wed, 02 Mar 2016 14:27:16 +0000
 
-ubuntu-meta (1.336) vivid; urgency=medium
+ubuntu-meta (1.348) xenial; urgency=medium
 
-  * Removed a bunch of things
+  * Refreshed dependencies
+  * Added bcache-tools to server
+  * Added cloud-guest-utils to server
+  * Added cloud-initramfs-copymods to server
+  * Added cloud-initramfs-dyn-netconf to server
+  * Added fonts-noto-cjk to desktop-recommends
+  * Added gnome-software to desktop-recommends
+  * Added grub-legacy-ec2 to server [amd64 arm64 armhf i386 powerpc
+    ppc64el]
+  * Added ifenslave to server
+  * Added lvm2 to server
+  * Added lxd to server
+  * Added mdadm to server
+  * Added open-iscsi to server
+  * Added open-vm-tools to server [amd64 i386]
+  * Added overlayroot to server
+  * Added ppp to desktop-recommends
+  * Added pppconfig to desktop-recommends
+  * Added pppoeconf to desktop-recommends
+  * Added s390-tools to minimal [s390x]
+  * Added sosreport to server
+  * Added tmux to server
+  * Added vlan to server
+  * Removed fonts-droid from desktop-recommends
+  * Removed memtest86+ from server [amd64 i386]
+  * Removed ppp from standard-recommends
+  * Removed pppconfig from standard-recommends
+  * Removed pppoeconf from standard-recommends
+  * Removed software-center from desktop-recommends
+  * Removed ubuntu-sso-client-qt from desktop
+  * Removed w3m from server
+  * Removed wireless-tools from server
+  * Removed wpasupplicant from server
 
- -- Hugh Greenberg <hugh@galliumos.org>  Sun, 18 Oct 2015 21:51:12 -0700
+ -- Robert Ancell <robert.ancell@canonical.com>  Wed, 17 Feb 2016 12:03:59 -0800
 
-ubuntu-meta (1.335) vivid; urgency=medium
+ubuntu-meta (1.347) xenial; urgency=medium
 
-  * Removed popularity contest
+  * Refreshed dependencies
+  * Added strace to standard [s390x]
+  * Added ubuntu-server meta package.
 
- -- Hugh Greenberg <hugh@galliumos.org>  Mon, 5 Oct 2015 21:51:12 -0700
+ -- Scott Moser <smoser@ubuntu.com>  Mon, 01 Feb 2016 08:32:28 -0500
+
+ubuntu-meta (1.346) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added activity-log-manager to desktop-recommends [s390x]
+  * Added checkbox-gui to desktop [s390x]
+  * Added deja-dup to desktop-recommends [s390x]
+  * Added evince to desktop-recommends [s390x]
+  * Added file-roller to desktop-recommends [s390x]
+  * Added gnome-calendar to desktop-recommends
+  * Added gnome-screensaver to desktop-recommends [s390x]
+  * Added gnome-terminal to desktop-recommends [s390x]
+  * Added gvfs-bin to desktop [s390x]
+  * Added gvfs-fuse to desktop-recommends [s390x]
+  * Added kerneloops-daemon to desktop-recommends [s390x]
+  * Added libreoffice-calc to desktop-recommends [s390x]
+  * Added libreoffice-gnome to desktop-recommends [s390x]
+  * Added libreoffice-impress to desktop-recommends [s390x]
+  * Added libreoffice-math to desktop-recommends [s390x]
+  * Added libreoffice-ogltrans to desktop-recommends [s390x]
+  * Added libreoffice-pdfimport to desktop-recommends [s390x]
+  * Added libreoffice-writer to desktop-recommends [s390x]
+  * Added lightdm to desktop [s390x]
+  * Added nautilus to desktop [s390x]
+  * Added nautilus-share to desktop-recommends [s390x]
+  * Added network-manager-gnome to desktop-recommends [s390x]
+  * Added network-manager-pptp-gnome to desktop-recommends [s390x]
+  * Added procps to minimal [s390x]
+  * Added remmina to desktop-recommends [s390x]
+  * Added rhythmbox to desktop-recommends [s390x]
+  * Added shotwell to desktop-recommends [s390x]
+  * Added totem to desktop-recommends [s390x]
+  * Added transmission-gtk to desktop-recommends [s390x]
+  * Added unity-control-center to desktop [s390x]
+  * Added unity-greeter to desktop [s390x]
+  * Added unity-settings-daemon to desktop [s390x]
+  * Added update-notifier to desktop [s390x]
+  * Added vino to desktop-recommends [s390x]
+  * Added zeitgeist-core to desktop-recommends [s390x]
+  * Added zeitgeist-datahub to desktop-recommends [s390x]
+
+ -- Iain Lane <iain.lane@canonical.com>  Fri, 08 Jan 2016 09:28:52 +0000
+
+ubuntu-meta (1.345) xenial; urgency=high
+
+  * Only build minimal and standard for s390x.
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Thu, 17 Dec 2015 01:02:50 +0000
+
+ubuntu-meta (1.344) xenial; urgency=high
+
+  * Add s390x.
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Fri, 04 Dec 2015 18:00:27 +0000
+
+ubuntu-meta (1.343) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added unity-webapps-common to desktop-recommends
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Tue, 17 Nov 2015 17:50:55 +0000
+
+ubuntu-meta (1.342) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added aisleriot to desktop-recommends [powerpc]
+  * Added branding-ubuntu to desktop-recommends [powerpc]
+  * Added gnome-mahjongg to desktop-recommends [powerpc]
+  * Added gnome-mines to desktop-recommends [powerpc]
+  * Added gnome-sudoku to desktop-recommends [powerpc]
+  * Added libreoffice-calc to desktop-recommends [armhf powerpc]
+  * Added libreoffice-gnome to desktop-recommends [armhf powerpc]
+  * Added libreoffice-impress to desktop-recommends [armhf powerpc]
+  * Added libreoffice-math to desktop-recommends [armhf powerpc]
+  * Added libreoffice-ogltrans to desktop-recommends [armhf powerpc]
+  * Added libreoffice-pdfimport to desktop-recommends [armhf powerpc]
+  * Added libreoffice-style-human to desktop-recommends [armhf powerpc]
+  * Added libreoffice-writer to desktop-recommends [armhf powerpc]
+  * Added overlay-scrollbar-gtk2 to desktop-recommends
+  * Added thunderbird to desktop-recommends [armhf]
+  * Added thunderbird-gnome-support to desktop-recommends [armhf]
+  * Removed brasero from desktop-recommends
+  * Removed empathy from desktop-recommends
+  * Removed gcc from desktop-recommends
+  * Removed landscape-client-ui-install from desktop-recommends
+  * Removed make from desktop-recommends
+  * Removed network-manager-pptp from desktop-recommends
+  * Removed overlay-scrollbar from desktop-recommends
+  * Removed rhythmbox-plugin-magnatune from desktop-recommends
+  * Removed ssh-askpass-gnome from desktop
+  * Removed telepathy-idle from desktop-recommends
+  * Removed unity-webapps-common from desktop-recommends
+  * Moved baobab to desktop-recommends
+  * Moved eog to desktop-recommends
+  * Moved evince to desktop-recommends
+  * Moved file-roller to desktop-recommends
+  * Moved gedit to desktop-recommends
+  * Moved gnome-calculator to desktop-recommends
+  * Moved gnome-font-viewer to desktop-recommends
+  * Moved gnome-power-manager to desktop-recommends
+  * Moved gnome-screenshot to desktop-recommends
+  * Moved gnome-system-log to desktop-recommends
+  * Moved gnome-system-monitor to desktop-recommends
+  * Moved gucharmap to desktop-recommends
+  * Moved nautilus-sendto to desktop-recommends
+  * Moved seahorse to desktop-recommends
+  * Moved software-center to desktop-recommends
+  * Moved system-config-printer-gnome to desktop-recommends
+
+ -- Iain Lane <iain.lane@canonical.com>  Mon, 16 Nov 2015 16:54:52 +0000
+
+ubuntu-meta (1.341) wily; urgency=medium
+
+  * Refreshed dependencies
+  * Added libreoffice-calc to desktop-recommends [arm64 ppc64el]
+  * Added libreoffice-gnome to desktop-recommends [arm64 ppc64el]
+  * Added libreoffice-impress to desktop-recommends [arm64 ppc64el]
+  * Added libreoffice-math to desktop-recommends [arm64 ppc64el]
+  * Added libreoffice-ogltrans to desktop-recommends [arm64 ppc64el]
+  * Added libreoffice-pdfimport to desktop-recommends [arm64 ppc64el]
+  * Added libreoffice-writer to desktop-recommends [arm64 ppc64el]
+  * Removed xul-ext-unity from desktop-recommends
+  * Removed xul-ext-webaccounts from desktop-recommends
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Mon, 21 Sep 2015 07:16:30 +0200
+
+ubuntu-meta (1.340) wily; urgency=medium
+
+  * Refreshed dependencies
+  * Removed libxp6 from desktop
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Tue, 18 Aug 2015 18:33:10 +0200
+
+ubuntu-meta (1.339) wily; urgency=medium
+
+  * Refreshed dependencies
+  * Removed bluez-alsa from desktop-recommends
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Sun, 16 Aug 2015 14:35:59 -0600
+
+ubuntu-meta (1.338) wily; urgency=medium
+
+  * Refreshed dependencies (LP: #1452472)
+  * Removed gstreamer0.10-alsa from desktop
+  * Removed gstreamer0.10-plugins-base-apps from desktop
+  * Removed gstreamer0.10-pulseaudio from desktop
+
+ -- Iain Lane <iain.lane@canonical.com>  Mon, 27 Jul 2015 18:04:12 +0100
+
+ubuntu-meta (1.337) wily; urgency=medium
+
+  * Refreshed dependencies
+  * Added gnome-keyring to desktop-recommends
+  * Added gnupg-agent to desktop-recommends
+  * Removed mac-fdisk from minimal [powerpc ppc64el]
+  * Removed pmac-fdisk from minimal [powerpc ppc64el]
+
+ -- Iain Lane <iain.lane@canonical.com>  Mon, 13 Jul 2015 09:43:07 +0100
+
+ubuntu-meta (1.336) wily; urgency=medium
+
+  * Refreshed dependencies
+  * Removed ntpdate from minimal, superseded by systemd-timesyncd.
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Mon, 29 Jun 2015 10:03:53 +0200
+
+ubuntu-meta (1.335) wily; urgency=medium
+
+  * update.cfg: Switch to wily.
+  * Refreshed dependencies
+  * Added dmidecode to standard [arm64]
+  * Added zeitgeist-core, zeitgeist-datahub to desktop-recommends (LP: #1440373)
+  * Removed init from minimal
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Fri, 12 Jun 2015 15:57:56 +1200
 
 ubuntu-meta (1.334) vivid; urgency=medium
 

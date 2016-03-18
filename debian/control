@@ -35,7 +35,7 @@ Description: The Ubuntu standard system
  it not be removed.
 
 Package: ubuntu-desktop
-Architecture: any
+Architecture: amd64 arm64 armhf i386 powerpc ppc64el
 Depends: ${misc:Depends}, ${germinate:Depends}
 Recommends: ${germinate:Recommends}
 Description: The Ubuntu desktop system
@@ -44,3 +44,12 @@ Description: The Ubuntu desktop system
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
 
+Package: ubuntu-server
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: The Ubuntu Server system
+ This package depends on all of the packages in the Ubuntu Server system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
