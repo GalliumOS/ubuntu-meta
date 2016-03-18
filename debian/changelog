@@ -1,3 +1,9 @@
+ubuntu-meta (1.349-galliumos1) xenial; urgency=medium
+
+  * Removed popularity contest
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Thu, 17 Mar 2016 14:27:16 +0000
+
 ubuntu-meta (1.349) xenial; urgency=medium
 
   * Refreshed dependencies
