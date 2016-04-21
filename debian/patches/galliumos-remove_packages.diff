@@ -1,0 +1,10 @@
+--- a/standard-amd64
++++ b/standard-amd64
+@@ -20,7 +20,6 @@ man-db
+ mime-support
+ parted
+ pciutils
+-popularity-contest
+ psmisc
+ rsync
+ strace
