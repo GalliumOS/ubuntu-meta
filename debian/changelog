@@ -1,8 +1,95 @@
-ubuntu-meta (1.349-galliumos1) xenial; urgency=medium
+ubuntu-meta (1.361) xenial; urgency=medium
 
-  * Removed popularity contest
+  * Refreshed dependencies
+  * Added fwupdate-signed to desktop-recommends [amd64 arm64 armhf i386]
+  * Added ubuntu-software to desktop-recommends
+  * Added unity to desktop [s390x]
+  * Removed gnome-software from desktop-recommends
 
- -- Hugh Greenberg <hugh@galliumos.org>  Thu, 17 Mar 2016 14:27:16 +0000
+ -- Iain Lane <iain.lane@canonical.com>  Tue, 19 Apr 2016 21:15:56 +0100
+
+ubuntu-meta (1.360) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Moved lxd to server-recommends
+
+ -- Stéphane Graber <stgraber@ubuntu.com>  Thu, 14 Apr 2016 11:26:24 -0400
+
+ubuntu-meta (1.359) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added snapd to desktop-recommends, server-recommends
+  * Removed ubuntu-snappy-cli from desktop-recommends, server-recommends
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Wed, 13 Apr 2016 22:58:21 -0600
+
+ubuntu-meta (1.358) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Removed powerpc-ibm-utils from minimal [powerpc ppc64el]
+  * Removed s390-tools from minimal [s390x]
+  * Removed sysconfig-hardware from minimal [s390x]
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Wed, 13 Apr 2016 06:46:59 -0600
+
+ubuntu-meta (1.357) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added sysconfig-hardware to minimal [s390x]
+  * Moved ubuntu-snappy-cli to server-recommends
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Mon, 11 Apr 2016 12:48:15 -0600
+
+ubuntu-meta (1.356) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-snappy-cli to desktop-recommends, server
+  * Added unity-accessibility-profiles to desktop-recommends (LP: #1546317)
+
+ -- Luke Yelavich <themuso@ubuntu.com>  Thu, 07 Apr 2016 06:27:59 +1000
+
+ubuntu-meta (1.355) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added libpam-systemd to standard
+  * Removed libpam-systemd from desktop, server
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Sun, 03 Apr 2016 02:12:13 -0600
+
+ubuntu-meta (1.354) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added fwupd to desktop-recommends
+
+ -- Mario Limonciello <mario_limonciello@dell.com>  Thu, 31 Mar 2016 14:30:08 -0500
+
+ubuntu-meta (1.353) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added libpam-systemd to server (LP: #1561658)
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Thu, 31 Mar 2016 15:27:53 +0200
+
+ubuntu-meta (1.352) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-cloudimage-keyring to server
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Fri, 25 Mar 2016 01:44:43 +0000
+
+ubuntu-meta (1.351) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added a11y-profile-manager-indicator to desktop-recommends
+
+ -- Luke Yelavich <themuso@ubuntu.com>  Thu, 24 Mar 2016 12:10:17 +1100
+
+ubuntu-meta (1.350) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added fwupdate to desktop-recommends [amd64 arm64 armhf i386]
+
+ -- Mario Limonciello <mario_limonciello@dell.com>  Sun, 20 Mar 2016 00:36:50 -0500
 
 ubuntu-meta (1.349) xenial; urgency=medium
 

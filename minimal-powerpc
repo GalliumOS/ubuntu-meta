@@ -23,7 +23,6 @@ net-tools
 netbase
 netcat-openbsd
 passwd
-powerpc-ibm-utils
 powerpc-utils
 procps
 python3

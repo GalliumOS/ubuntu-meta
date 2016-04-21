@@ -1,16 +1,17 @@
 busybox-static
 cpio
 cron
-dmidecode
 dnsutils
 dosfstools
 ed
 file
 ftp
 hdparm
+hfsutils
 info
 iptables
 language-selector-common
+libpam-systemd
 logrotate
 lshw
 lsof
@@ -19,6 +20,7 @@ man-db
 mime-support
 parted
 pciutils
+popularity-contest
 psmisc
 rsync
 strace

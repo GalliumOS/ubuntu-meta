@@ -1,3 +1,4 @@
+a11y-profile-manager-indicator
 activity-log-manager
 aisleriot
 app-install-data-partner
@@ -33,6 +34,7 @@ fonts-sil-padauk
 fonts-takao-pgothic
 fonts-thai-tlwg
 fonts-tibetan-machine
+fwupd
 gedit
 gnome-accessibility-themes
 gnome-bluetooth
@@ -47,7 +49,6 @@ gnome-orca
 gnome-power-manager
 gnome-screensaver
 gnome-screenshot
-gnome-software
 gnome-sudoku
 gnome-system-log
 gnome-system-monitor
@@ -108,6 +109,7 @@ rhythmbox
 seahorse
 shotwell
 simple-scan
+snapd
 sni-qt
 speech-dispatcher
 system-config-printer-gnome
@@ -118,6 +120,8 @@ transmission-gtk
 ttf-ancient-fonts-symbola
 ttf-ubuntu-font-family
 ubuntu-docs
+ubuntu-software
+unity-accessibility-profiles
 unity-webapps-common
 vino
 whoopsie

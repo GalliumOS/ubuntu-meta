@@ -10,6 +10,7 @@ hdparm
 info
 iptables
 language-selector-common
+libpam-systemd
 logrotate
 lshw
 lsof

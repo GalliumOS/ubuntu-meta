@@ -22,7 +22,6 @@ inputattach
 language-selector-gnome
 libatk-adaptor
 libnotify-bin
-libpam-systemd
 libsasl2-modules
 lightdm
 memtest86+

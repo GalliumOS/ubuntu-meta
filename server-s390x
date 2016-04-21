@@ -13,7 +13,6 @@ fonts-ubuntu-font-family-console
 git
 ifenslave
 lvm2
-lxd
 mdadm
 open-iscsi
 overlayroot
@@ -22,6 +21,7 @@ screen
 software-properties-common
 sosreport
 tmux
+ubuntu-cloudimage-keyring
 update-notifier-common
 vim
 vlan
