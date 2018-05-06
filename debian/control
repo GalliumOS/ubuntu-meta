@@ -3,7 +3,7 @@ Section: metapackages
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Standards-Version: 3.9.2
-Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Build-Depends: debhelper (>= 9), germinate (>= 1.18)
 
 Package: ubuntu-minimal
 Architecture: any
@@ -35,7 +35,7 @@ Description: The Ubuntu standard system
  it not be removed.
 
 Package: ubuntu-desktop
-Architecture: amd64 arm64 armhf i386 powerpc ppc64el
+Architecture: any
 Depends: ${misc:Depends}, ${germinate:Depends}
 Recommends: ${germinate:Recommends}
 Description: The Ubuntu desktop system
