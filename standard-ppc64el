@@ -20,10 +20,10 @@ mime-support
 parted
 pciutils
 popularity-contest
+ppc64-diag
 psmisc
 rsync
 strace
-systemd-sysv
 time
 usbutils
 wget

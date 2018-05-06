@@ -23,7 +23,6 @@ popularity-contest
 psmisc
 rsync
 strace
-systemd-sysv
 time
 usbutils
 wget

@@ -1,3 +1,503 @@
+ubuntu-meta (1.417) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added gnome-initial-setup and ubuntu-report to desktop-recommends
+    (LP: #1755456)
+
+ -- Didier Roche <didrocks@ubuntu.com>  Wed, 18 Apr 2018 15:16:07 +0200
+
+ubuntu-meta (1.416) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Moved landscape-common to server-recommends (LP: #1763182)
+
+ -- Christian Ehrhardt <christian.ehrhardt@canonical.com>  Tue, 17 Apr 2018 07:24:50 +0000
+
+ubuntu-meta (1.415) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added libu2f-udev to desktop LP: #1752202
+  * Removed vlan from server
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Mon, 09 Apr 2018 15:54:40 +0100
+
+ubuntu-meta (1.414) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added landscape-common to server
+
+ -- Christian Ehrhardt <christian.ehrhardt@canonical.com>  Tue, 20 Mar 2018 15:24:08 +0100
+
+ubuntu-meta (1.413) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added gnome-bluetooth to desktop-recommends [s390x]
+  * Added htop to server
+  * Removed doc-base from desktop
+
+ -- Christian Ehrhardt <christian.ehrhardt@canonical.com>  Tue, 13 Mar 2018 11:12:35 +0100
+
+ubuntu-meta (1.412) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added dirmngr to desktop-recommends, server
+  * Added fonts-ubuntu to desktop-recommends
+  * Added fonts-ubuntu-console to server
+  * Added gnupg to server
+  * Added gpg-agent to desktop-recommends
+  * Added spice-vdagent to desktop
+  * Removed fonts-ubuntu-font-family-console from server
+  * Removed gnome-characters from desktop-recommends
+  * Removed gnome-logs from desktop-recommends
+  * Removed gnome-system-monitor from desktop-recommends
+  * Removed gnupg-agent from desktop-recommends
+  * Removed ttf-ubuntu-font-family from desktop-recommends
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Sat, 03 Mar 2018 16:16:49 +0000
+
+ubuntu-meta (1.411) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added cloud-initramfs-dyn-netconf to server (LP: #1750851)
+  * Added printer-driver-m2300w to desktop-recommends
+  * Removed gnome-calculator from desktop-recommends
+  * Removed ttf-ancient-fonts-symbola from desktop-recommends
+
+ -- Scott Moser <smoser@ubuntu.com>  Thu, 22 Feb 2018 09:53:43 -0500
+
+ubuntu-meta (1.410) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed ubuntu-cloudimage-keyring from server
+
+ -- Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>  Tue, 06 Feb 2018 16:22:01 -0500
+
+ubuntu-meta (1.409) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed cloud-initramfs-dyn-netconf from server
+  * Removed gnome-screensaver from desktop-recommends
+
+ -- Scott Moser <smoser@ubuntu.com>  Tue, 06 Feb 2018 10:55:56 -0500
+
+ubuntu-meta (1.408) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added firefox to desktop-recommends [ppc64el]
+  * Added fonts-noto-color-emoji to desktop-recommends (LP: #1734885)
+  * Added gnome-characters to desktop-recommends (LP: #1713176)
+  * Added gnome-todo to desktop-recommends (LP: #1713171)
+  * Added orca to desktop-recommends
+  * Removed gnome-orca from desktop-recommends
+  * Removed gucharmap from desktop-recommends
+  * Removed libgail-common from desktop-recommends
+  * Moved grub-legacy-ec2 to server-recommends [amd64 arm64 armhf i386]
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Wed, 24 Jan 2018 10:44:40 -0500
+
+ubuntu-meta (1.407) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed fonts-nanum from desktop-recommends (LP: #1581160)
+  * Removed fonts-takao-pgothic from desktop-recommends
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Fri, 10 Nov 2017 11:00:38 -0500
+
+ubuntu-meta (1.406) bionic; urgency=medium
+
+  * Update update.cfg for bionic
+  * Use debhelper v9
+  * Refreshed dependencies
+  * Added gdm3 to desktop [s390x]
+  * Added gnome-shell to desktop [s390x]
+  * Added s390-tools to server [s390x]
+  * Added ubuntu-session to desktop [s390x]
+  * Removed grub-legacy-ec2 from server [ppc64el]
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Fri, 03 Nov 2017 12:02:46 +0000
+
+ubuntu-meta (1.405) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added gir1.2-gmenu-3.0 to desktop-recommends (LP: #1726093)
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Fri, 27 Oct 2017 11:55:42 -0400
+
+ubuntu-meta (1.404) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added sensible-utils to minimal (LP: #1724224)
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 17 Oct 2017 06:51:03 -0600
+
+ubuntu-meta (1.403) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added fonts-indic to desktop-recommends (LP: #1720809)
+  * Added gnome-getting-started-docs to desktop-recommends (LP: #1721795)
+  * Removed apt-transport-https from standard-recommends (LP: #1712871)
+  * Removed fonts-guru from desktop-recommends (LP: #1720809)
+  * Removed thunderbird from desktop-recommends [s390x] (LP: #1720422)
+  * Removed thunderbird-gnome-support from desktop-recommends [s390x]
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Sun, 08 Oct 2017 17:14:33 -0400
+
+ubuntu-meta (1.402) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Removed xdiagnose from desktop (LP: #1717946)
+  * Removed xterm from desktop-recommends (LP: #1717946)
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Thu, 28 Sep 2017 13:09:49 -0400
+
+ubuntu-meta (1.401) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added thunderbird-gnome-support to desktop-recommends
+  * Removed firefox from desktop-recommends [ppc64el]. This change is
+    dedicated to Chris with <3.
+
+ -- Didier Roche <didrocks@ubuntu.com>  Mon, 25 Sep 2017 16:29:55 -0400
+
+ubuntu-meta (1.400) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Removed gnome-software-plugin-snap from desktop-recommends [s390x]
+  * Added ubuntu-advantage-tools to minimal.  LP: #1686183.
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Fri, 22 Sep 2017 03:46:23 +0000
+
+ubuntu-meta (1.399) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added gstreamer1.0-packagekit to desktop (LP: #1712979)
+
+ -- Iain Lane <iain.lane@canonical.com>  Mon, 04 Sep 2017 18:46:17 +0100
+
+ubuntu-meta (1.398) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added mount to minimal
+  * Added network-manager to desktop-recommends
+  * Added network-manager-config-connectivity-ubuntu to desktop-
+    recommends (LP: #997200)
+  * Removed network-manager-gnome from desktop-recommends
+  * Removed onboard from desktop-recommends
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Wed, 30 Aug 2017 08:28:53 -0400
+
+ubuntu-meta (1.397) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added gnome-shell-extension-appindicator to desktop
+  * Removed gdm3 from desktop [s390x]
+  * Removed gnome-shell from desktop [s390x]
+  * Removed ubuntu-session from desktop [s390x]
+
+ -- Didier Roche <didrocks@ubuntu.com>  Wed, 23 Aug 2017 08:36:30 +0200
+
+ubuntu-meta (1.396) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added gnome-logs to desktop-recommends
+  * Removed gnome-system-log from desktop-recommends
+  * Removed libnss-resolve from standard-recommends
+  * Removed resolvconf from minimal
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Sat, 19 Aug 2017 20:32:16 +0100
+
+ubuntu-meta (1.395) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added gnome-shell-extension-ubuntu-dock to desktop
+
+ -- Didier Roche <didrocks@ubuntu.com>  Fri, 18 Aug 2017 09:44:51 +0200
+
+ubuntu-meta (1.394) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Removed ifenslave from server
+  * Removed libqt4-sql-sqlite from desktop-recommends
+  * Removed qt-at-spi from desktop-recommends
+  * Refreshed dependencies
+  * Added gsettings-ubuntu-schemas to desktop-recommends
+
+ -- Didier Roche <didrocks@ubuntu.com>  Thu, 10 Aug 2017 15:24:12 +0200
+
+ubuntu-meta (1.393) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Removed thunderbird-gnome-support from desktop-recommends
+
+ -- Didier Roche <didrocks@ubuntu.com>  Wed, 12 Jul 2017 09:20:57 +0200
+
+ubuntu-meta (1.392) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added gdm3 to desktop
+  * Added kerneloops to desktop-recommends
+  * Removed lightdm from desktop [amd64 arm64 armhf i386 ppc64el]
+  * Removed unity-greeter from desktop [amd64 arm64 armhf i386 ppc64el]
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Thu, 06 Jul 2017 11:07:22 -0400
+
+ubuntu-meta (1.391) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Removed checkbox-converged from desktop
+
+ -- Didier Roche <didrocks@ubuntu.com>  Tue, 04 Jul 2017 11:38:01 +0200
+
+ubuntu-meta (1.390) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Removed a11y-profile-manager-indicator from desktop-recommends
+  * Removed activity-log-manager from desktop-recommends
+  * Removed kerneloops-daemon from desktop-recommends
+  * Removed sni-qt from desktop-recommends
+  * Removed unity-accessibility-profiles from desktop-recommends
+  * Removed zeitgeist-core from desktop-recommends
+  * Removed zeitgeist-datahub from desktop-recommends
+
+ -- Didier Roche <didrocks@ubuntu.com>  Tue, 04 Jul 2017 08:38:01 +0200
+
+ubuntu-meta (1.389) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-session to desktop
+
+ -- Didier Roche <didrocks@ubuntu.com>  Wed, 21 Jun 2017 16:36:13 +0200
+
+ubuntu-meta (1.388) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Removed ifupdown from minimal
+  * Removed nplan from standard
+  * Added nplan to minimal
+
+ -- Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>  Fri, 16 Jun 2017 01:09:02 -0400
+
+ubuntu-meta (1.387) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Removed ubuntu-session from desktop
+
+ -- Didier Roche <didrocks@ubuntu.com>  Tue, 06 Jun 2017 14:05:54 +0200
+
+ubuntu-meta (1.386) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-web-launchers to desktop-recommends
+  * Removed unity from desktop [amd64 arm64 armhf i386 ppc64el]
+  * Removed unity-control-center from desktop [amd64 arm64 armhf i386
+    ppc64el]
+  * Removed unity-settings-daemon from desktop
+
+ -- Iain Lane <iain.lane@canonical.com>  Tue, 06 Jun 2017 11:09:19 +0100
+
+ubuntu-meta (1.385) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added unity to desktop [amd64 arm64 armhf i386 ppc64el]
+  * Added unity-control-center to desktop [amd64 arm64 armhf i386
+    ppc64el]
+  * Added unity-settings-daemon to desktop
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Fri, 02 Jun 2017 15:22:45 -0400
+
+ubuntu-meta (1.384) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added gnome-control-center to desktop
+  * Added gnome-settings-daemon to desktop
+  * Added gnome-shell to desktop
+
+ -- Didier Roche <didrocks@ubuntu.com>  Thu, 01 Jun 2017 18:41:16 +0200
+
+ubuntu-meta (1.383) artful; urgency=medium
+
+  * Remove Unity & associated component to remplace it with Gnome Shell
+    (LP: #1694991).
+  * Refreshed dependencies
+  * Removed notify-osd from desktop
+  * Removed overlay-scrollbar-gtk2 from desktop-recommends
+  * Removed unity from desktop [amd64 arm64 armhf i386 ppc64el]
+  * Removed unity-control-center from desktop [amd64 arm64 armhf i386
+    ppc64el]
+  * Removed unity-settings-daemon from desktop
+  Bye bye Unity, it has been a long and fun ride: from the Unity0 in
+  vala+mutter for Ubuntu Netbook Edition, to Unity1 becoming Unity7
+  with the compiz C++ rewrite and Nux additions. We had our load of fun,
+  joy, sadness, crazyness… without forgetting crashes as well!
+  Remember those shaders, those overlay scrollbars, those window stack issues,
+  those 5am releases? And synchronizing you with the Unity2D team!
+  Thanks to everyone involved, all those still here, those who left.
+
+ -- Didier Roche <didrocks@ubuntu.com>  Thu, 01 Jun 2017 15:43:44 +0200
+
+ubuntu-meta (1.382) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added gnome-software-plugin-snap to desktop-recommends
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Thu, 18 May 2017 16:03:42 +1200
+
+ubuntu-meta (1.381) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Removed unity-webapps-common from desktop-recommends
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Fri, 05 May 2017 19:31:30 +0100
+
+ubuntu-meta (1.380) artful; urgency=medium
+
+  * update.cfg; zesty -> artful
+  * Refreshed dependencies
+  * Removed unity8-desktop-session from desktop-recommends [amd64 arm64
+    armhf i386 ppc64el]
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Sun, 23 Apr 2017 15:03:58 +0100
+
+ubuntu-meta (1.379) zesty; urgency=medium
+
+  * Refreshed dependencies
+  * Added deja-dup to desktop-recommends [s390x]
+  * Removed unity-greeter from desktop [s390x]
+  * Removed unity8-desktop-session from desktop-recommends [s390x]
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Mon, 10 Apr 2017 07:42:06 -0600
+
+ubuntu-meta (1.378) zesty; urgency=medium
+
+  * Refreshed dependencies and remove powerpc.
+  * Moved memtest86+ to desktop-recommends [amd64 i386]
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Mon, 20 Mar 2017 18:17:37 -0600
+
+ubuntu-meta (1.377) zesty; urgency=medium
+
+  * Refreshed dependencies
+  * Added checkbox-converged to desktop
+  * Removed checkbox-gui from desktop
+
+ -- Robert Ancell <robert.ancell@canonical.com>  Wed, 01 Feb 2017 14:04:27 +1300
+
+ubuntu-meta (1.376) zesty; urgency=medium
+
+  * Refreshed dependencies
+  * Added net-tools to server
+  * Added unity-greeter to desktop [s390x]
+  * Removed net-tools from minimal
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Fri, 27 Jan 2017 22:46:36 +0000
+
+ubuntu-meta (1.375) zesty; urgency=medium
+
+  * update.cfg; yakkety -> zesty
+  * Refreshed dependencies
+  * Added firefox to desktop-recommends [ppc64el]
+  * Added ppc64-diag to standard [powerpc]
+  * Added system-config-printer to desktop-recommends
+  * Removed deja-dup from desktop-recommends [s390x]
+  * Removed system-config-printer-gnome from desktop-recommends
+
+ -- Iain Lane <iain.lane@canonical.com>  Thu, 01 Dec 2016 12:32:50 +0000
+
+ubuntu-meta (1.373) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Removed firefox from desktop-recommends [powerpc ppc64el s390x]
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 11 Oct 2016 22:02:15 -0600
+
+ubuntu-meta (1.372) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added ppc64-diag to standard [ppc64el]
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Fri, 07 Oct 2016 18:48:54 +0000
+
+ubuntu-meta (1.371) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added unity8-desktop-session to desktop-recommends (LP: #1612357)
+  * Removed gnome-bluetooth from desktop-recommends [s390x]
+  * Removed lightdm from desktop [s390x]
+  * Removed unity-control-center from desktop [s390x]
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Tue, 04 Oct 2016 19:37:54 +0000
+
+ubuntu-meta (1.370) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Removed pulseaudio-module-x11 from desktop-recommends
+  * Removed unity-greeter from desktop [s390x]
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Fri, 26 Aug 2016 16:54:29 -0600
+
+ubuntu-meta (1.369) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added packagekit to desktop-recommends
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 16 Aug 2016 18:38:06 -0600
+
+ubuntu-meta (1.368) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added nplan to standard
+  * Removed python3-aptdaemon.pkcompat from desktop-recommends
+  * Removed sysvinit-utils from minimal
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 16 Aug 2016 03:10:49 -0600
+
+ubuntu-meta (1.367) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Removed gnupg from minimal
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Tue, 19 Jul 2016 10:21:22 +0200
+
+ubuntu-meta (1.366) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Removed makedev from minimal
+  * Moved rsyslog to minimal-recommends
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Thu, 14 Jul 2016 15:51:18 +0200
+
+ubuntu-meta (1.365) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added init to minimal
+  * Moved ureadahead from minimal to standard-recommends
+  * Removed systemd-sysv from standard
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Tue, 31 May 2016 09:33:50 +0200
+
+ubuntu-meta (1.364) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added sysvinit-utils to minimal
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Mon, 30 May 2016 16:40:44 +0200
+
+ubuntu-meta (1.363) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added libnss-resolve to standard-recommends
+  * Removed unity from desktop [s390x]
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Mon, 30 May 2016 11:21:26 +0200
+
+ubuntu-meta (1.362) yakkety; urgency=medium
+
+  * update.cfg: Switch to yakkety.
+  * Refreshed dependencies
+  * Added pollinate to server
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Wed, 11 May 2016 11:20:57 +0100
+
 ubuntu-meta (1.361) xenial; urgency=medium
 
   * Refreshed dependencies
